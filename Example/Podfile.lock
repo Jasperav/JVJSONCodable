@@ -1,0 +1,16 @@
+PODS:
+  - JVJSONCodable (0.1.0)
+
+DEPENDENCIES:
+  - JVJSONCodable (from `../`)
+
+EXTERNAL SOURCES:
+  JVJSONCodable:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JVJSONCodable: 9b7f0c064f51e4e8b3b36f9d1fa49de2e72f04eb
+
+PODFILE CHECKSUM: 55f31686431e4a5eb71f9537fcde589c3d115519
+
+COCOAPODS: 1.6.1

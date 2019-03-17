@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		190A2513D626C77947BAF6E661769A6C /* JSONCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E4500D0735D8E061CD6BDD6F05D8B2 /* JSONCodable.swift */; };
+		65F4427AE08BD0E09D16F6CE41D18630 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		8860D0191638EC2FE0D0D0F82448FDF9 /* Pods-JVJSONCodable_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5A6919A28087866244259CD0C1243A /* Pods-JVJSONCodable_Tests-dummy.m */; };
+		A1BAF9BF76552A587F9F1EA9A75DB353 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		CD8DF77D381C8EEA256C1863B65F54B9 /* JVJSONCodable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D8EB3CACB34C592EC955AC83C8F2D9 /* JVJSONCodable-dummy.m */; };
+		D92B7429CC26F3A4DCF252E52F200496 /* JVJSONCodable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DD5AFE79C7918C9AB7E9F0A22BCAFC3 /* JVJSONCodable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1B846466F115CF15C73F19C0582AD1F /* Pods-JVJSONCodable_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B1485631169BBBF8F14AD1279250C57 /* Pods-JVJSONCodable_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		622FC1B3A0072EEED8D71884D9CC3E6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C28ACA93C5C63C4A496389F020AEDEEC;
+			remoteInfo = JVJSONCodable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B2E5EEAA6778CB7A4ABD4D20FBECFAB /* JVJSONCodable.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVJSONCodable.xcconfig; sourceTree = "<group>"; };
+		1909C515F11127F9D91C59DE04740320 /* Pods-JVJSONCodable_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JVJSONCodable_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1A5A6919A28087866244259CD0C1243A /* Pods-JVJSONCodable_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JVJSONCodable_Tests-dummy.m"; sourceTree = "<group>"; };
+		36E4500D0735D8E061CD6BDD6F05D8B2 /* JSONCodable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONCodable.swift; path = JVJSONCodable/Classes/JSONCodable.swift; sourceTree = "<group>"; };
+		4DD5AFE79C7918C9AB7E9F0A22BCAFC3 /* JVJSONCodable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVJSONCodable-umbrella.h"; sourceTree = "<group>"; };
+		65688A768EF6E142F7BD04B23FC76678 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6AC51CCFE2F98ADC3B64B976420FA30D /* JVJSONCodable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVJSONCodable-prefix.pch"; sourceTree = "<group>"; };
+		75E5F5709384DADF6C918BAFE1EF09D2 /* Pods-JVJSONCodable_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JVJSONCodable_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		87EDD89340098FBE86CA68F40F39DF2B /* Pods_JVJSONCodable_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JVJSONCodable_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87F81977DF241F510C9D95F27CF4EFC4 /* Pods-JVJSONCodable_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JVJSONCodable_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8B1485631169BBBF8F14AD1279250C57 /* Pods-JVJSONCodable_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JVJSONCodable_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A35A4AAB7B9662AB1EB3257933FA4381 /* JVJSONCodable-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JVJSONCodable-Info.plist"; sourceTree = "<group>"; };
+		A8AFD5E482182E195C6380EB655DDE52 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		B0D1F3C24F80523F26CD4D3DDD12A039 /* Pods-JVJSONCodable_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JVJSONCodable_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B60F0A0EC04125A1BED4AC22C4A7C200 /* Pods-JVJSONCodable_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JVJSONCodable_Tests.modulemap"; sourceTree = "<group>"; };
+		BDA71687FBAAF4ABF3445D1025B44AF6 /* JVJSONCodable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVJSONCodable.modulemap; sourceTree = "<group>"; };
+		BEFF956399AB918F4FFE06EB231B4C86 /* Pods-JVJSONCodable_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JVJSONCodable_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CE2646704BD0724EEF6F65253505C761 /* JVJSONCodable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVJSONCodable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7D8EB3CACB34C592EC955AC83C8F2D9 /* JVJSONCodable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVJSONCodable-dummy.m"; sourceTree = "<group>"; };
+		E85E038E62DF461B577B87480285527A /* JVJSONCodable.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = JVJSONCodable.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F61930505D3D909F89C5BFD7B1C0FCCB /* Pods-JVJSONCodable_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JVJSONCodable_Tests-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA30AD8FE36B6CE61C3BBDD2F01269E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1BAF9BF76552A587F9F1EA9A75DB353 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCB24B30277B6B516EEDFF58B9F684BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65F4427AE08BD0E09D16F6CE41D18630 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08BFA17A0A779FEC11C39EF09190BAD3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B1E67173E43F36580CE0AD270B025118 /* Pods-JVJSONCodable_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		0A4176775AFB2998CF50550B552E8E60 /* JVJSONCodable */ = {
+			isa = PBXGroup;
+			children = (
+				36E4500D0735D8E061CD6BDD6F05D8B2 /* JSONCodable.swift */,
+				BB3BB0BBD9772080FA709B0F530CB209 /* Pod */,
+				1AFCE7BA9DF5796BA3764D96C2EC5C80 /* Support Files */,
+			);
+			name = JVJSONCodable;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		1AFCE7BA9DF5796BA3764D96C2EC5C80 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDA71687FBAAF4ABF3445D1025B44AF6 /* JVJSONCodable.modulemap */,
+				0B2E5EEAA6778CB7A4ABD4D20FBECFAB /* JVJSONCodable.xcconfig */,
+				E7D8EB3CACB34C592EC955AC83C8F2D9 /* JVJSONCodable-dummy.m */,
+				A35A4AAB7B9662AB1EB3257933FA4381 /* JVJSONCodable-Info.plist */,
+				6AC51CCFE2F98ADC3B64B976420FA30D /* JVJSONCodable-prefix.pch */,
+				4DD5AFE79C7918C9AB7E9F0A22BCAFC3 /* JVJSONCodable-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JVJSONCodable";
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9BC77BDEA05B4A35B3727FB247CAB8E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE2646704BD0724EEF6F65253505C761 /* JVJSONCodable.framework */,
+				87EDD89340098FBE86CA68F40F39DF2B /* Pods_JVJSONCodable_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1E67173E43F36580CE0AD270B025118 /* Pods-JVJSONCodable_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B60F0A0EC04125A1BED4AC22C4A7C200 /* Pods-JVJSONCodable_Tests.modulemap */,
+				1909C515F11127F9D91C59DE04740320 /* Pods-JVJSONCodable_Tests-acknowledgements.markdown */,
+				87F81977DF241F510C9D95F27CF4EFC4 /* Pods-JVJSONCodable_Tests-acknowledgements.plist */,
+				1A5A6919A28087866244259CD0C1243A /* Pods-JVJSONCodable_Tests-dummy.m */,
+				75E5F5709384DADF6C918BAFE1EF09D2 /* Pods-JVJSONCodable_Tests-frameworks.sh */,
+				F61930505D3D909F89C5BFD7B1C0FCCB /* Pods-JVJSONCodable_Tests-Info.plist */,
+				8B1485631169BBBF8F14AD1279250C57 /* Pods-JVJSONCodable_Tests-umbrella.h */,
+				BEFF956399AB918F4FFE06EB231B4C86 /* Pods-JVJSONCodable_Tests.debug.xcconfig */,
+				B0D1F3C24F80523F26CD4D3DDD12A039 /* Pods-JVJSONCodable_Tests.release.xcconfig */,
+			);
+			name = "Pods-JVJSONCodable_Tests";
+			path = "Target Support Files/Pods-JVJSONCodable_Tests";
+			sourceTree = "<group>";
+		};
+		BB3BB0BBD9772080FA709B0F530CB209 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E85E038E62DF461B577B87480285527A /* JVJSONCodable.podspec */,
+				A8AFD5E482182E195C6380EB655DDE52 /* LICENSE */,
+				65688A768EF6E142F7BD04B23FC76678 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BE8B5D25CB97C018263C17FADFFC4798 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A4176775AFB2998CF50550B552E8E60 /* JVJSONCodable */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				BE8B5D25CB97C018263C17FADFFC4798 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				9BC77BDEA05B4A35B3727FB247CAB8E9 /* Products */,
+				08BFA17A0A779FEC11C39EF09190BAD3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D46A2C61E215F584D3CF50370FDB9B8C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1B846466F115CF15C73F19C0582AD1F /* Pods-JVJSONCodable_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD78B48DF071F0194E468B8A4657D9AA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D92B7429CC26F3A4DCF252E52F200496 /* JVJSONCodable-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B79594842E975937D5A5D1C2BD2946C5 /* Pods-JVJSONCodable_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85FF796C96C5837061B2FB9D45C2D19F /* Build configuration list for PBXNativeTarget "Pods-JVJSONCodable_Tests" */;
+			buildPhases = (
+				D46A2C61E215F584D3CF50370FDB9B8C /* Headers */,
+				B65586EF079F67957E9F868CA36D02A6 /* Sources */,
+				DCB24B30277B6B516EEDFF58B9F684BD /* Frameworks */,
+				0D8F71DA943C7DC2F3EA771BCE958D81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02D41165AE179C345D35CC5A6F6F9927 /* PBXTargetDependency */,
+			);
+			name = "Pods-JVJSONCodable_Tests";
+			productName = "Pods-JVJSONCodable_Tests";
+			productReference = 87EDD89340098FBE86CA68F40F39DF2B /* Pods_JVJSONCodable_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C28ACA93C5C63C4A496389F020AEDEEC /* JVJSONCodable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4A00B2411D94484E01DB8B213C18403 /* Build configuration list for PBXNativeTarget "JVJSONCodable" */;
+			buildPhases = (
+				DD78B48DF071F0194E468B8A4657D9AA /* Headers */,
+				2531F0DE32504394DC6171483A800DF7 /* Sources */,
+				BA30AD8FE36B6CE61C3BBDD2F01269E4 /* Frameworks */,
+				CEF05144C932FFB595ED88BF38AB4134 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JVJSONCodable;
+			productName = JVJSONCodable;
+			productReference = CE2646704BD0724EEF6F65253505C761 /* JVJSONCodable.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 9BC77BDEA05B4A35B3727FB247CAB8E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C28ACA93C5C63C4A496389F020AEDEEC /* JVJSONCodable */,
+				B79594842E975937D5A5D1C2BD2946C5 /* Pods-JVJSONCodable_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D8F71DA943C7DC2F3EA771BCE958D81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF05144C932FFB595ED88BF38AB4134 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2531F0DE32504394DC6171483A800DF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD8DF77D381C8EEA256C1863B65F54B9 /* JVJSONCodable-dummy.m in Sources */,
+				190A2513D626C77947BAF6E661769A6C /* JSONCodable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B65586EF079F67957E9F868CA36D02A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8860D0191638EC2FE0D0D0F82448FDF9 /* Pods-JVJSONCodable_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02D41165AE179C345D35CC5A6F6F9927 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JVJSONCodable;
+			target = C28ACA93C5C63C4A496389F020AEDEEC /* JVJSONCodable */;
+			targetProxy = 622FC1B3A0072EEED8D71884D9CC3E6F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		64E2EE0F63ADB97333C7B5C598DA9B3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B2E5EEAA6778CB7A4ABD4D20FBECFAB /* JVJSONCodable.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JVJSONCodable/JVJSONCodable-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JVJSONCodable/JVJSONCodable-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JVJSONCodable/JVJSONCodable.modulemap";
+				PRODUCT_MODULE_NAME = JVJSONCodable;
+				PRODUCT_NAME = JVJSONCodable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		73AD1CFE480A161F92E09834779DD4C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0D1F3C24F80523F26CD4D3DDD12A039 /* Pods-JVJSONCodable_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JVJSONCodable_Tests/Pods-JVJSONCodable_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JVJSONCodable_Tests/Pods-JVJSONCodable_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7781F6A3F2A86259C4DCE140217C8AE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEFF956399AB918F4FFE06EB231B4C86 /* Pods-JVJSONCodable_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JVJSONCodable_Tests/Pods-JVJSONCodable_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JVJSONCodable_Tests/Pods-JVJSONCodable_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D40A126CF8B9B04DAFE63B2C8A556E4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B2E5EEAA6778CB7A4ABD4D20FBECFAB /* JVJSONCodable.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JVJSONCodable/JVJSONCodable-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JVJSONCodable/JVJSONCodable-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JVJSONCodable/JVJSONCodable.modulemap";
+				PRODUCT_MODULE_NAME = JVJSONCodable;
+				PRODUCT_NAME = JVJSONCodable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F232B5ECA11A71BFA199A229B323F454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */,
+				F232B5ECA11A71BFA199A229B323F454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85FF796C96C5837061B2FB9D45C2D19F /* Build configuration list for PBXNativeTarget "Pods-JVJSONCodable_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7781F6A3F2A86259C4DCE140217C8AE7 /* Debug */,
+				73AD1CFE480A161F92E09834779DD4C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4A00B2411D94484E01DB8B213C18403 /* Build configuration list for PBXNativeTarget "JVJSONCodable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D40A126CF8B9B04DAFE63B2C8A556E4F /* Debug */,
+				64E2EE0F63ADB97333C7B5C598DA9B3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
