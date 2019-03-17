@@ -14,7 +14,7 @@
 /* Begin PBXFileReference section */
 		08F0E802B19843680EC626CB /* Pods-JVJSONCodable_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JVJSONCodable_Tests.release.xcconfig"; path = "Target Support Files/Pods-JVJSONCodable_Tests/Pods-JVJSONCodable_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		105EB02A0887CAE678B1E9C0 /* Pods-JVJSONCodable_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JVJSONCodable_Tests.debug.xcconfig"; path = "Target Support Files/Pods-JVJSONCodable_Tests/Pods-JVJSONCodable_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		2495DD32F019DB6116779F4C /* JVJSONCodable.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JVJSONCodable.podspec; path = ../JVJSONCodable.podspec; sourceTree = "<group>"; };
+		2495DD32F019DB6116779F4C /* JVJSONCodable.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JVJSONCodable.podspec; path = ../JVJSONCodable.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACE51AFB9204008FA782 /* JVJSONCodable_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JVJSONCodable_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };

@@ -1,4 +1,4 @@
-public struct JSONDecodable {
+public struct JSONCodable {
     
     private static let decoder = JSONDecoder()
     private static let encoder = JSONEncoder()
@@ -19,12 +19,12 @@ public struct JSONDecodable {
 
 public extension Decodable {
     static func decodeFrom(data: [String: Any]) -> Self {
-        return JSONDecodable.decode(data: data, type: Self.self)
+        return JSONCodable.decode(data: data, type: Self.self)
     }
 }
 
 public extension Encodable {
     func encode() -> [String: Any] {
-        return JSONDecodable.encode(from: self)
+        return JSONCodable.encode(from: self)
     }
 }
